@@ -1,0 +1,115 @@
+{% load static from staticfiles%}
+{%block content%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>my website</title>
+        <meta charset ="utf-8">
+        <meta name ="viewpoint" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            body{
+                background-image: url(/static/su5.jpeg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            .header{
+                background-color: gray;
+                padding: 20px;
+                text-align: center;
+                opacity: 0.4;
+                
+                
+            }
+          
+            .fa{
+                padding: 10px;
+                font-size: 30px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+                border-radius: 50%;
+                opacity: 0.8;
+            }
+                
+            
+            .fa-facebook {
+                background:gray;
+                color: white;
+              }
+              
+              .fa-twitter {
+                background:gray;
+                color: white;
+              }
+              
+              .fa-google {
+                background:gray;
+                color: white;
+              }
+              
+              .fa-linkedin {
+                background:gray;
+                color: white;
+              }
+              .fa-facebook:hover
+              {
+                  background-color:black;
+                  color:white;
+              }
+              .fa-google:hover
+              {
+                  background-color:black;
+                  color:white;
+              }
+                .fa-linkedin:hover
+                  {
+                      background-color:black;
+                      color:white;
+                  }
+                .fa-twitter:hover
+                      {
+                          background-color:black;
+                          color:white;
+                      }
+                    </style>
+    </head>
+    <body>
+        <div class ="header">
+            <h1>Hello! This is Suprava Koley</h1>
+            <h5>thank you for visiting my porfolio</h5>
+        </div>
+
+        
+       
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        
+            <!-- Sidebar -->
+        <div class="w3-sidebar w3-grey w3-bar-block" style="width:15%">
+            <h3 class="w3-bar-item">Menu</h3>
+            <a href="#" class="w3-bar-item w3-button">Link 1</a><br>
+            <a href="#" class="w3-bar-item w3-button">Link 2</a><br>
+            <a href="#" class="w3-bar-item w3-button">Link 3</a><br>
+        </div>
+        <div style="margin-left:25%">
+
+            <div class="w3-container w3-teal">
+              <h1>My Page</h1>
+            </div>
+            
+           
+            <div class="w3-container">
+            <h2>Sidebar Navigation Example</h2>
+            <p>The sidebar with is set with "style="width:25%".</p>
+            <p>The left margin of the page content is set to the same value.</p>
+            </div>
+            
+            </div>
+    </body>
+    </html>
+    {%endblock%}

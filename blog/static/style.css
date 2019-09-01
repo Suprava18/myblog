@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-image: url(su1.jpeg);
+}
+/*style the header*/
+.header{
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5;
+   
+    overflow: hidden;
+  
+}
+
+li{
+    
+    display: inline;
+    
+}
+li a{
+    display: block;
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    text-align:left;
+    display: inline;
+    padding: 14px ;
+    
+}
+li a:hover
+{
+    background-color:grey;
+    color: black;
+}
+li b{
+    display: block;
+    width: 80px;
+    
+    background-color:grey;
+    color:black;
+    text-decoration: none;
+    text-align:center;
+    
+    padding: 14px ;
+}
